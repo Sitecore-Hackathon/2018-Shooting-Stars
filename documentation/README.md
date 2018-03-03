@@ -13,7 +13,7 @@ This module is JSS react application that will allow Sitecore editors to add JSS
 ## Pre-requisites
 
 - Installation Files
-	- /sc.package/sc-twitter-app.1520105563115.update
+	- /sc.package/sc-twitter-app.1520109092225.update
 	- /sc.package/SitecoreItems.zip
 
 ## Installation

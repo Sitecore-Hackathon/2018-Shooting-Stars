@@ -9,5 +9,5 @@ If there are any post-install steps required then please include it in the docum
 sc-twitter-app.1520105563115.update
 	-	Files Deployed
 	
-JssTwitterComponent_SitecoreItemsRenderingsTemplates.zip
+SitecoreItems.zip
 	-	Content/Renderings/Template Items

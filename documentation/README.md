@@ -1,52 +1,30 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** - Sitecore JavaScript Service (JSS)
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+JSS Twitter Component connects to provided Twitter account and displays tweets from that account.
+As a widget in the Sitecore website.
+This module is JSS react application that will allow Sitecore editors to add JSS Twitters component into a page and configure twitter account and its size settings in Sitecore. 
+
+
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Installation Files
+	- /sc.package/sc-twitter-app.1520105563115.update
+	- /sc.package/SitecoreItems.zip
 
 ## Installation
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+1. Use the Sitecore Package Installation wizard to install the /sc.package/JssTwitterComponent_SitecoreItemsRenderingsTemplates.zip
+2. Use the Sitecore Update Package Installation wizard to install the /sc.package/sc-twitter-app.1520105563115.update
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
 
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
 
 ## Usage
 
@@ -69,3 +47,9 @@ And you can embed external images too:
 Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
 
 [![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+
+
+## External Modules
+
+- React Twitter Widgets
+https://www.npmjs.com/package/react-twitter-widgets

@@ -5,6 +5,7 @@ export default manifest => {
     fields: [
       { name: "screenName", type: manifest.fieldTypes.singleLineText },
       { name: "username", type: manifest.fieldTypes.singleLineText }
-    ]
+    ],
+    params: [{ name: "size" }]
   });
 };

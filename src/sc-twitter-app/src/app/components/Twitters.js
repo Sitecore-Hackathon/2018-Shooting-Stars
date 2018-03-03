@@ -3,11 +3,13 @@ import PropTypes from "prop-types";
 import { Timeline } from 'react-twitter-widgets'
 
 
-const Twitters = ({fields}) => (
-  <Timeline dataSource={{ sourceType: 'profile', screenName: fields.screenName.value }}
-    options={{username: fields.username.value, height: '800'}}
-    onLoad={() => console.log(fields.username)}
-  />
+const Twitters = props => (
+  <div class={props.params.size}>
+    <Timeline dataSource={{ sourceType: 'profile', screenName: props.fields.screenName.value }}
+      options={{username: props.fields.username.value, height: '800'}}
+      onLoad={() => console.log("Loaded")}
+    />
+  </div>
 );
 
 Twitters.propTypes = {
@@ -18,6 +20,9 @@ Twitters.propTypes = {
     username: PropTypes.shape({
       value: PropTypes.string
     })
+  }),
+  params: PropTypes.shape({
+    size: PropTypes.oneOf(['small', 'medium', 'large'])
   })
 };
 

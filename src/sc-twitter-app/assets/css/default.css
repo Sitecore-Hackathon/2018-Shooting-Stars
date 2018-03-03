@@ -82,3 +82,15 @@ a:hover {
   padding-right:20px;
   line-height: 22px;
 }	
+
+.small {
+  width:200px;
+}
+
+.medium {
+  width: 400px;
+}
+
+.large {
+  width: 800px;
+}

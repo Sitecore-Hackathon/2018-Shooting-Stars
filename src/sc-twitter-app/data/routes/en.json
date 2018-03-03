@@ -12,6 +12,9 @@
           "username": {
             "value": "sitecore"
           }
+        },
+        "params": {
+          "size": "medium"
         }
       }
     ]

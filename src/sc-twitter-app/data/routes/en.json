@@ -1,0 +1,19 @@
+{
+  "name": "home",
+  "displayName": "Home",
+  "placeholders": {
+    "main": [
+      {
+        "componentName": "Twitters",
+        "fields": {
+          "screenName": {
+            "value": "Sitecore"
+          },
+          "username": {
+            "value": "sitecore"
+          }
+        }
+      }
+    ]
+  }
+}
